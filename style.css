@@ -276,7 +276,7 @@
     }
 
     .scrolled {
-        background-color: dodgerblue;
+        background-color: red;
         transition: 0.3s;
     }
     
@@ -327,6 +327,10 @@
             border: 1px solid rgba(0, 0, 0, .15);
             background-color: #fff;
         }
+
+        .img-responsive {
+    margin: 0 auto;
+}
 
     }
 
