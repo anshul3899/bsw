@@ -58,6 +58,17 @@
         margin-bottom: 30px;
         border: 0;
     }
+      #rblue-hr {
+        height: 4px;
+        width: 70px;
+        text-align: center;
+        position: relative;
+        background: #00695c;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        border: 0;
+    }
+
 
     .brown-text {
         color: #795548;
@@ -65,13 +76,13 @@
 
     /* Footer */
 
- 
+ /*
     #myFooter {
         background-color: #009688;
         color: white;
         padding-top: 30px;
     }
-
+*/
     #myFooter .footer-copyright {
         background-color: #00897b;
         padding-top: 3px;
@@ -245,6 +256,22 @@ i {
   transform: translate(0, -8);
 }
 
+#grad1 {
+       width:100%;
+    background: linear-gradient(141deg, #009688 0%, #00bfa5 51%, #00796b 75%);
+    color:white;
+    opacity:0.95;
+}
+
+#pad1{
+padding-left: 100px;
+padding-right: 50px;
+}
+
+#pad2{
+padding-right: 100px;
+padding-left: 50px;
+}
 
 
 
@@ -281,6 +308,14 @@ i {
 
         .imagic img {
             height: 500px;
+        }
+         #pad1{
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+        #pad2{
+            padding-left: 10%;  
+            padding-right: 10%;
         }
 
 
@@ -324,6 +359,7 @@ i {
    .img-responsive {
     margin: 0 auto;
 }
+
 
       
     }
