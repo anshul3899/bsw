@@ -363,7 +363,9 @@ padding-left: 50px;
     margin: 0 auto;
 }
 
-
+        .b { 
+           font-weight: bold;
+           }
       
     }
 
