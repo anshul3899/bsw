@@ -65,60 +65,7 @@
 
     /* Footer */
 
-    #footer {
-        background: #383b43;
-        padding: 6em 0em 4em;
-    }
-
-    #footer h2, #footer h3, #footer h4 {
-        color: #ffffff;
-    }
-
-    #footer p, #footer a, #footer li {
-        color: #cdced0;
-    }
-
-    #footer .links {
-        border-bottom: 1px solid rgba(144, 144, 144, 0.25);
-        margin-bottom: 4em;
-        padding-bottom: 1em;
-    }
-
-    #footer .copyright {
-        margin-top: 0.65em;
-        padding: 0;
-    }
-
-    #footer .copyright li {
-        color: #858585;
-        display: inline-block;
-        list-style: none;
-        margin-left: 0.5em;
-        padding-left: 0.5em;
-    }
-
-    #footer .copyright li:first-child {
-        margin-left: 0;
-        padding-left: 0;
-    }
-
-    #footer .copyright a {
-        color: #858585;
-    }
-
-    #footer .icons {
-        text-align: right;
-    }
-
-    #footer a.icon {
-        color: #ffffff;
-        font-size: 0.65em;
-        height: 4em;
-        line-height: 4em;
-        width: 4em;
-        cursor: pointer;
-    }
-
+ 
     #myFooter {
         background-color: #009688;
         color: white;
@@ -183,19 +130,7 @@
         line-height: 25px;
     }
 
-    @media screen and (max-width: 767px) {
-        #myFooter {
-            text-align: center;
-        }
-
-        .polaroid:hover {
-            -ms-transform: scale(1); /* IE 9 */
-            -webkit-transform: scale(1); /* Safari 3-8 */
-            transform: scale(1);
-            cursor: pointer;
-        }
-    }
-
+   
     #myFooter {
         flex: 0 0 auto;
         -webkit-flex: 0 0 auto;
@@ -211,74 +146,26 @@
         text-shadow: 2px 2px 4px #000000
     }
 
-    @media only screen and (max-width: 992px) {
-        .intro-text {
 
-            color: white;
-            font-size: 350%;
-        }
+    .btn-secondary{
 
-        .imagic img {
-            height: 500px;
-        }
-    }
-
-    .btn-primary {
+border-radius: 100px;
 
     }
-
-    .btn {
-        font-size: 120%;
-        padding: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
-        border: 0px solid transparent;
-        border-radius: 50px;
+    .btn-primary{
+        border-radius: 100px;
     }
 
-    .btn-primary:hover {
-        background-color: #009688;
-        border: 0px solid transparent;
-    }
-
+   
     .navbar {
+
+        background-color: white;
         -webkit-box-shadow: 0 8px 6px -6px #999;
         -moz-box-shadow: 0 8px 6px -6px #999;
         box-shadow: 0 8px 6px -6px #999;
-
-        /* the rest of your styling */
+    
     }
 
-    .btn-secondary:hover {
-        background-color: #009688;
-
-    }
-
-    .btn-secondary {
-        padding-top: 2px;
-        padding-bottom: 2px;
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-
-    @media (min-width: 768px) and (max-width: 1000px) {
-        .navbar-brand {
-            float: left;
-            margin-right: 5px;
-            margin-left: -15px;
-        }
-
-    }
-
-    .navbar {
-
-        background-color: transparent;
-    }
-
-    .scrolled {
-        background-color: red;
-        transition: 0.3s;
-    }
     
     /* adds some margin below the link sets  */
     .navbar .dropdown-menu div[class*="col"] {
@@ -291,7 +178,65 @@
     }
 
     /* breakpoint and up - mega dropdown styles */
-    @media screen and (min-width: 992px) {
+   
+
+      .img-responsive {
+    margin: 0 auto;
+}
+
+.center-block {
+ display: block;
+ margin-right: auto;
+ margin-left: auto;
+}
+ .main-text {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    color: #FFF;
+
+}
+
+
+
+/*   media queries  ============================================*****************************************++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+    @media (min-width: 768px) and (max-width: 1000px) {
+        .navbar-brand {
+            float: left;
+            margin-right: 5px;
+            margin-left: -15px;
+        }
+
+    }
+
+    @media only screen and (max-width: 992px) {
+         #myFooter {
+            text-align: center;
+        }
+
+        .polaroid:hover {
+            -ms-transform: scale(1); /* IE 9 */
+            -webkit-transform: scale(1); /* Safari 3-8 */
+            transform: scale(1);
+            cursor: pointer;
+        }
+
+        .intro-text {
+
+            color: white;
+            font-size: 350%;
+        }
+
+        .imagic img {
+            height: 500px;
+        }
+
+
+    }
+     @media screen and (min-width: 992px) {
 
         /* remove the padding from the navbar so the dropdown hover state is not broken */
         .navbar {
@@ -327,10 +272,13 @@
             border: 1px solid rgba(0, 0, 0, .15);
             background-color: #fff;
         }
-
-        .img-responsive {
+   .img-responsive {
     margin: 0 auto;
 }
 
+      
     }
+
+    
+
 
