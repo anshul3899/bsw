@@ -277,6 +277,7 @@ padding-left: 50px;
     text-shadow: 2px 2px 8px black;
 }
 
+.navbar-collapse { max-height: calc(100vh - 60px); overflow-y: auto; }
 
 /*   media queries  ============================================*****************************************++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
